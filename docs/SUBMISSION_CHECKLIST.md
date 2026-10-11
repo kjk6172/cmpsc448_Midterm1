@@ -13,7 +13,7 @@ The instructor requires a GitHub repository URL containing the source code and a
 - [x] RQ1 and all three RQ2 input conditions are present for both CNN and LSTM.
 - [x] Extra-credit RQ3 and RQ4 conclusions match the actual experiments and do not claim universal attribution.
 - [x] The source and reproduction commands are included; credentials, virtual environments and raw private files are excluded.
-- [ ] Create or choose a GitHub repository, upload/push the committed files, and verify code and PDF are visible using the submitted URL.
+- [x] Final files are published at https://github.com/kjk6172/cmpsc448_Midterm1 . Anonymous source/PDF access and a fresh-clone test/artifact verification passed.
 - [ ] Submit that repository URL through the course's required channel before **October 11, 2026, 11:59 p.m. America/New_York**.
 
 ## Optional presentation
@@ -31,23 +31,17 @@ The assignment offers a default 17/20 presentation score when the team chooses n
 - `data/`: curated licensed public examples and provenance, as described in the data documentation.
 - `docs/DEFENSE_GUIDE_KO.md`: Korean explanation and presentation guide.
 
-## Commit and host the project when ready
+## Repository and later updates
 
-The selected submission repository is https://github.com/kjk6172/cmpsc448_Midterm1 . The packaging step stages the final files; committing, uploading and course-channel URL submission are separate actions. From this workspace, the downloaded local MinGit executable can be used if `git` is not on `PATH`:
+The published repository is **https://github.com/kjk6172/cmpsc448_Midterm1**. The final scientific artifacts were checked against the local Git tree, and a fresh public clone passed all 12 unit tests and full artifact verification. Both students' reading/understanding and submission through the course channel remain separate manual responsibilities.
 
-```powershell
-.\.tools\git\cmd\git.exe status
-.\.tools\git\cmd\git.exe commit -m "Complete CMPSC 448 midterm project"
-```
-
-If Git requests an identity, configure your chosen name and email before committing. The local `.tools` helper is ignored and is not included in the submission package; an extracted package can use a regular Git installation.
-
-After creating your own GitHub repository, use its actual URL in these optional commands:
+For later authorized changes, commit the updated files and push to the configured `origin`. Regenerate affected results and the PDF before uploading changes to data or model code. The local `.tools` helper is ignored and is not included in the submission package.
 
 ```powershell
-git remote add origin https://github.com/kjk6172/cmpsc448_Midterm1.git
-git branch -M main
-git push -u origin main
+git remote -v
+git add .
+git commit -m "Update CMPSC 448 submission"
+git push origin main
 ```
 
-The URL above is the team's selected repository. Verify that the hosted source and `report/project_report.pdf` can be accessed by the instructor, then submit the repository URL through the course channel.
+Submit the repository URL itself through the course's required channel; the ZIP is only a portable backup.
