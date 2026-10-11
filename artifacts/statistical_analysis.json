@@ -1,0 +1,382 @@
+{
+  "method": "Paired percentile bootstrap, resampling complete near-duplicate prompt components; average metric over the same training seeds before differencing.",
+  "cluster_key": "split_group_id",
+  "repetitions": 2000,
+  "seed": 2026,
+  "interval": "95% percentile",
+  "comparisons": [
+    {
+      "comparison": "cnn_input_output_minus_output",
+      "left_run_ids": [
+        "main_cnn_input_output_raw_seed42",
+        "main_cnn_input_output_raw_seed43",
+        "main_cnn_input_output_raw_seed44"
+      ],
+      "right_run_ids": [
+        "main_cnn_output_raw_seed42",
+        "main_cnn_output_raw_seed43",
+        "main_cnn_output_raw_seed44"
+      ],
+      "training_seeds": [
+        42,
+        43,
+        44
+      ],
+      "test_rows": 261,
+      "test_prompts": 87,
+      "test_clusters": 86,
+      "metrics": {
+        "accuracy": {
+          "left": 0.7637292464878671,
+          "right": 0.7381864623243933,
+          "delta": 0.025542784163473775,
+          "ci95": [
+            -0.005110041878285737,
+            0.05686313819834277
+          ]
+        },
+        "macro_f1": {
+          "left": 0.7602973588885065,
+          "right": 0.7348035574092396,
+          "delta": 0.02549380147926683,
+          "ci95": [
+            -0.006163493224231803,
+            0.05828390111991784
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "lstm_input_output_minus_output",
+      "left_run_ids": [
+        "main_lstm_input_output_raw_seed42",
+        "main_lstm_input_output_raw_seed43",
+        "main_lstm_input_output_raw_seed44"
+      ],
+      "right_run_ids": [
+        "main_lstm_output_raw_seed42",
+        "main_lstm_output_raw_seed43",
+        "main_lstm_output_raw_seed44"
+      ],
+      "training_seeds": [
+        42,
+        43,
+        44
+      ],
+      "test_rows": 261,
+      "test_prompts": 87,
+      "test_clusters": 86,
+      "metrics": {
+        "accuracy": {
+          "left": 0.5415070242656449,
+          "right": 0.7535121328224776,
+          "delta": -0.21200510855683274,
+          "ci95": [
+            -0.26181353767560667,
+            -0.15994738719457832
+          ]
+        },
+        "macro_f1": {
+          "left": 0.5412416966618164,
+          "right": 0.7538172362728442,
+          "delta": -0.21257553961102782,
+          "ci95": [
+            -0.2633736313040534,
+            -0.16134247471173566
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "cnn_minus_lstm_output",
+      "left_run_ids": [
+        "main_cnn_output_raw_seed42",
+        "main_cnn_output_raw_seed43",
+        "main_cnn_output_raw_seed44"
+      ],
+      "right_run_ids": [
+        "main_lstm_output_raw_seed42",
+        "main_lstm_output_raw_seed43",
+        "main_lstm_output_raw_seed44"
+      ],
+      "training_seeds": [
+        42,
+        43,
+        44
+      ],
+      "test_rows": 261,
+      "test_prompts": 87,
+      "test_clusters": 86,
+      "metrics": {
+        "accuracy": {
+          "left": 0.7381864623243933,
+          "right": 0.7535121328224776,
+          "delta": -0.01532567049808431,
+          "ci95": [
+            -0.05813953488372092,
+            0.02621722846441932
+          ]
+        },
+        "macro_f1": {
+          "left": 0.7348035574092396,
+          "right": 0.7538172362728442,
+          "delta": -0.01901367886360461,
+          "ci95": [
+            -0.06431384858515586,
+            0.024286352737673954
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "cnn_normalized_minus_raw",
+      "left_run_ids": [
+        "ablation_cnn_output_normalized_seed42"
+      ],
+      "right_run_ids": [
+        "main_cnn_output_raw_seed42"
+      ],
+      "training_seeds": [
+        42
+      ],
+      "test_rows": 261,
+      "test_prompts": 87,
+      "test_clusters": 86,
+      "metrics": {
+        "accuracy": {
+          "left": 0.6628352490421456,
+          "right": 0.7624521072796935,
+          "delta": -0.09961685823754785,
+          "ci95": [
+            -0.15503875968992242,
+            -0.042133620689655156
+          ]
+        },
+        "macro_f1": {
+          "left": 0.6480669722615531,
+          "right": 0.7583200564942462,
+          "delta": -0.11025308423269309,
+          "ci95": [
+            -0.1710446420101034,
+            -0.04808489377767098
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "cnn_length64_minus_raw",
+      "left_run_ids": [
+        "ablation_cnn_output_length64_seed42"
+      ],
+      "right_run_ids": [
+        "main_cnn_output_raw_seed42"
+      ],
+      "training_seeds": [
+        42
+      ],
+      "test_rows": 261,
+      "test_prompts": 87,
+      "test_clusters": 86,
+      "metrics": {
+        "accuracy": {
+          "left": 0.7586206896551724,
+          "right": 0.7624521072796935,
+          "delta": -0.003831417624521105,
+          "ci95": [
+            -0.045454545454545414,
+            0.03488372093023262
+          ]
+        },
+        "macro_f1": {
+          "left": 0.7536092687893882,
+          "right": 0.7583200564942462,
+          "delta": -0.004710787704857999,
+          "ci95": [
+            -0.04763982715401533,
+            0.03729874294395948
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "lstm_normalized_minus_raw",
+      "left_run_ids": [
+        "ablation_lstm_output_normalized_seed42"
+      ],
+      "right_run_ids": [
+        "main_lstm_output_raw_seed42"
+      ],
+      "training_seeds": [
+        42
+      ],
+      "test_rows": 261,
+      "test_prompts": 87,
+      "test_clusters": 86,
+      "metrics": {
+        "accuracy": {
+          "left": 0.6819923371647509,
+          "right": 0.7432950191570882,
+          "delta": -0.06130268199233724,
+          "ci95": [
+            -0.10727969348659006,
+            -0.015151515151515138
+          ]
+        },
+        "macro_f1": {
+          "left": 0.6796794205257647,
+          "right": 0.7422661006681778,
+          "delta": -0.06258668014241309,
+          "ci95": [
+            -0.11127662233401849,
+            -0.014476691761860287
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "lstm_length64_minus_raw",
+      "left_run_ids": [
+        "ablation_lstm_output_length64_seed42"
+      ],
+      "right_run_ids": [
+        "main_lstm_output_raw_seed42"
+      ],
+      "training_seeds": [
+        42
+      ],
+      "test_rows": 261,
+      "test_prompts": 87,
+      "test_clusters": 86,
+      "metrics": {
+        "accuracy": {
+          "left": 0.7394636015325671,
+          "right": 0.7432950191570882,
+          "delta": -0.003831417624521105,
+          "ci95": [
+            -0.04597701149425293,
+            0.03745318352059923
+          ]
+        },
+        "macro_f1": {
+          "left": 0.7367793496825755,
+          "right": 0.7422661006681778,
+          "delta": -0.005486750985602251,
+          "ci95": [
+            -0.04878474685675773,
+            0.037091187656025086
+          ]
+        }
+      }
+    }
+  ],
+  "lexical_signals": {
+    "Claude": [
+      {
+        "ngram": "here",
+        "coefficient": 6.708390723735831
+      },
+      {
+        "ngram": "here is",
+        "coefficient": 5.826998809893715
+      },
+      {
+        "ngram": "here are",
+        "coefficient": 4.2934548624067235
+      },
+      {
+        "ngram": "are",
+        "coefficient": 3.71312308784352
+      },
+      {
+        "ngram": "are some",
+        "coefficient": 3.5954919304556934
+      },
+      {
+        "ngram": "some",
+        "coefficient": 3.5017455344048827
+      },
+      {
+        "ngram": "key",
+        "coefficient": 3.01555136931264
+      },
+      {
+        "ngram": "like",
+        "coefficient": 2.863041104953456
+      }
+    ],
+    "GPT": [
+      {
+        "ngram": "remember",
+        "coefficient": 2.9410064319158025
+      },
+      {
+        "ngram": "sure",
+        "coefficient": 2.8268045414236593
+      },
+      {
+        "ngram": "sure here",
+        "coefficient": 2.7486001799206403
+      },
+      {
+        "ngram": "might",
+        "coefficient": 2.6556306400263994
+      },
+      {
+        "ngram": "re",
+        "coefficient": 2.2539532160385627
+      },
+      {
+        "ngram": "also",
+        "coefficient": 2.142638829456058
+      },
+      {
+        "ngram": "which",
+        "coefficient": 1.9845105543805204
+      },
+      {
+        "ngram": "12",
+        "coefficient": 1.949968055759001
+      }
+    ],
+    "Gemini": [
+      {
+        "ngram": "such",
+        "coefficient": 2.003854881502875
+      },
+      {
+        "ngram": "such as",
+        "coefficient": 1.9957252118375257
+      },
+      {
+        "ngram": "it is",
+        "coefficient": 1.9620170111127893
+      },
+      {
+        "ngram": "including",
+        "coefficient": 1.5450301552738939
+      },
+      {
+        "ngram": "to the",
+        "coefficient": 1.351094189217944
+      },
+      {
+        "ngram": "positive",
+        "coefficient": 1.1494860244052236
+      },
+      {
+        "ngram": "knowledge",
+        "coefficient": 1.148576846514567
+      },
+      {
+        "ngram": "that you",
+        "coefficient": 1.1324621600595302
+      }
+    ]
+  },
+  "lexical_signals_method": "Largest positive coefficients in the training-only response TF-IDF logistic classifier. These are associations in the baseline, not explanations of CNN/LSTM decisions or intrinsic provider traits.",
+  "limitations": [
+    "Intervals describe uncertainty from this fixed test sample; they do not represent new providers or versions.",
+    "Training-seed variability is reported separately; bootstrap does not resample seeds.",
+    "Exploratory intervals are not adjusted for multiple comparisons; no confirmatory significance claim is made."
+  ]
+}

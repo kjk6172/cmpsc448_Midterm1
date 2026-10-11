@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/raw/
+artifacts/checkpoints/
+artifacts/baseline_check/
+submission/
+.tools/
+*.log
+.DS_Store
+Thumbs.db
+Midterm project-1-1.pdf
+Midterm_Project.md

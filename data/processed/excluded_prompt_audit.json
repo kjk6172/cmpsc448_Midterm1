@@ -1,0 +1,1787 @@
+[
+  {
+    "prompt_id": "prompt_46920bebaf293e02",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_34cd9a026780774a",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_db056c4efeb67282",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_d8db94034dcfd785",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_47472703b54c75eb",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_73789f7afe9e5d0b",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_51d039a931cf17c9",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_a50b86c05346aade",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_b317a786c8bc8982",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_e5b6a17aa95c98da",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_812ebfdb6745ee34",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_6c06d65bf5d2ba10",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_98b6c602c1aa25c0",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_311e4719f9fda516",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_82f84b0c6866a3e9",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_65eb6ec3c6d177ef",
+    "source_dataset": "selfinstruct",
+    "reason": "privacy_pattern_phone_like"
+  },
+  {
+    "prompt_id": "prompt_677aca3a85d46bf9",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_f91ca4d20cffa602",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_d22ce77910519106",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_d2dfb2e64591ee87",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_edb76c199b550157",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_09ce621d091101fd",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_00f7834698e726da",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_444adac0b4815636",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_23f32a8f35afc668",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_058e6df8e788afe7",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_2c06968341368634",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_54c3b0c3c27600e2",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_1e5c3afe58ba8fcd",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_d2fa631e764693ec",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_10d48aa0d844b038",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_81b8fa820ef2d4d9",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_4bc7936ffc1de2ea",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_0cf14ab44840a6dc",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_f6deaa292aaf9d55",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_26abb9ae3eb03708",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_c4e8a66828b57f7d",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_eaba299a4286be81",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_3cdaad648a5e401b",
+    "source_dataset": "helpful_base",
+    "reason": "empty_output"
+  },
+  {
+    "prompt_id": "prompt_a9a77770a194246b",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_3fbcf1242793e407",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_52bc6dfeb4366f3a",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_666350748b3437d2",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_954163cf0170b78f",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_0f83d991851098a7",
+    "source_dataset": "selfinstruct",
+    "reason": "privacy_pattern_phone_like"
+  },
+  {
+    "prompt_id": "prompt_67c0947b9d2f0775",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_2dfc631c431f8617",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_2bff54f30f866766",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_850eae26a97e32b4",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_e05e2297b0d99f4e",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_e82716933e0ba471",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_626095f86058e4cd",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_8284db164c73eaef",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_659c5280cac8999a",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_b51c7145dbc4369a",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_9af0447bae58b0b0",
+    "source_dataset": "selfinstruct",
+    "reason": "privacy_pattern_phone_like"
+  },
+  {
+    "prompt_id": "prompt_3d90c24e2cffecb5",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_601f65b9fcf63e74",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_8908269816a469c3",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_3abddac22dbd7ade",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_491f418d95c03cf6",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_25c51b6109b28e22",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_296c6b2570ea4054",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_2f68c18d05e2a8bf",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_12a00364e922abbd",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_e9dc641548c98b73",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_041401d2f8994876",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_b229c608f859d328",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_d9d1cf86a6adf22a",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_5841afbe35080e6d",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_5dac3b61a9d5fa1c",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_af9ce34d8fa37dbe",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_07ddf4906d06f0e9",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_b5ab1bbf12abd8ba",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_22945b1b7ef3d1a8",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_32efe6fca3a4357e",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_7040d65fce8cf58a",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_8988cb90dcb46bd7",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_222f5ccec8ce2966",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_76174cede0a5f6c8",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_86f09117cb951c6d",
+    "source_dataset": "vicuna",
+    "reason": "privacy_pattern_phone_like"
+  },
+  {
+    "prompt_id": "prompt_cfbea79623dce111",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_01b0a0c6ce432d04",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_f032d782e2dc5765",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_82166e631933e052",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_1bd4631fa4470352",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_0131ff34d9d96be2",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_76fa3c6c176eb634",
+    "source_dataset": "helpful_base",
+    "reason": "privacy_pattern_phone_like"
+  },
+  {
+    "prompt_id": "prompt_99d6a08ac047282b",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_a3e436147e045b54",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_89abc8b4bcf34df0",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_5b1adc349c0f76d0",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_f97b7ce9ea86d323",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_5c37b0891157d75d",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_75b0d9cf1ce3498d",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_843e98589f172982",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_011892189ed1faf8",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_cba1f986ef3885af",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_4620d80cf7ee47c0",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_37ca0751517931a9",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_abe343ef30bc6eb3",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_d5644de4ec52c950",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_6949f920a1c8e64c",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_a2adaad2edb07403",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_8f7e862c7bf7e9d7",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_56bd5e46dbad5dfa",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_142ae9f965ce024b",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_d9b3146e3492a9be",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_272b052e48ba988e",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_144f17ed9d1766f9",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_fea8d8b017147c69",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_3e20b0d4150ef021",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_151d0e6dd43a1a67",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_5a5cff49c4c84b48",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_51b8f3a5c2a9432a",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_c35aa1e6c4601bd3",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_813564b88aa0f288",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_63feaeda0bf1f2d0",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_793645781a79a3a8",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_41ec6bda210c5358",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_50dfbad2ce40b540",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_ae2b9b09732a14d8",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_d64a3a438c392600",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_e96aace833eab1b0",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_721079222b7e0073",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_603ea3fa071ababc",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_980f50a16fc1f51c",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_8e8af907fd32a816",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_730bc9493816e28f",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_efb89e7fddf7044c",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_f6e104d8fb55e7c4",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_ce1891625cba4ae8",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_4e1f025a31ad1ae9",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_268e56eeed7bb910",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_61e2e7b7ac18a411",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_32586d37555c0add",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_6b5bd651c6785846",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_4a9f9ff9327375ac",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_14c9397a9d6652fa",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_e674e4f0ce690857",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_1caed7c05dfcdee3",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_eb35bfd82c43e7e5",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_643c057e0082cc01",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_66994896e8a483e3",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_f10d0ab0790d0c28",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_50f4f993806ec343",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_a46bd174b2d48dc5",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_ca5696a483fcfc1e",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_5d63415171e85acc",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_b9f490c1b2e39ced",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_a92e74d60dbec6ce",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_27374cc253f1895c",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_036f4ef40a1d8cc4",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_24f766857140af43",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_c8899a46df90ef66",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_57ed4fda427470dc",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_d889532f1b4a1914",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_195d100fe99bafa7",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_13fdf1d0bb255719",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_45a1b1eca4809014",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_0fdc274210c1d78e",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_8b755811b244a79f",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_d22df2b08a7580bd",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_b39bf1f96ae079e4",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_ae2dabc68b839b32",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_09939f4bdd844fda",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_8539e796c40c9b9f",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_6a5fa8407c4a9e28",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_c2b0a4c1f99233cb",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_59c83426f880c957",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_a490eb4bf4a63bf4",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_f57f0f5510b2fc94",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_c8851cd39e5ed7da",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_6829e45c95dddef5",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_da753cf1737d080e",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_821789bac78612ae",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_2db5df1a499cfafc",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_e66c58a165804a8b",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_bae5a24c0d59ecc5",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_62ed4b762eef11d6",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_2b012eadf3472fcc",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_3e81254e02775a3f",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_fcaad2cddd5da893",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_23155ed80bf33ddd",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_32c66657d1e4f198",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_2a652dc36d554565",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_c7f97032e71e5922",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_c54c59231693c334",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_95857fd94f8bc085",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_3888172bac8463ed",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_bf2a717e3aabd19f",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_9f998018b0f55e4d",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_8fb1568f0f68e186",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_58c031eb0284c35f",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_842e1f4228809166",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_59c964400a5b5095",
+    "source_dataset": "selfinstruct",
+    "reason": "privacy_pattern_email"
+  },
+  {
+    "prompt_id": "prompt_708c523d6c7173ca",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_cfb78a8217669aab",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_da331704a2249dc5",
+    "source_dataset": "selfinstruct",
+    "reason": "privacy_pattern_email"
+  },
+  {
+    "prompt_id": "prompt_014c7a97d127a62d",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_7adff78ad4b134e9",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_fc90cf74ebc79f3d",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_77f248030e68cffd",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_64b6b20abcc0b5b0",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_081f09f490ca47e3",
+    "source_dataset": "selfinstruct",
+    "reason": "privacy_pattern_phone_like"
+  },
+  {
+    "prompt_id": "prompt_0bb096a2be050c60",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_4321e5fe29573d8b",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_3c3ff23cb67bbadc",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_e66f91be114a17de",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_57d17193d165491f",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_572cca679a792a40",
+    "source_dataset": "selfinstruct",
+    "reason": "privacy_pattern_phone_like"
+  },
+  {
+    "prompt_id": "prompt_1eff685d1f7e224e",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_32ec681a40dca2f6",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_5d7118afba89cf2f",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_54ac97dc46c32f6a",
+    "source_dataset": "selfinstruct",
+    "reason": "privacy_pattern_street_address"
+  },
+  {
+    "prompt_id": "prompt_61ac8cdfdc135a62",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_b6784bc2ba5fea88",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_0d5d50732f02159c",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_56ca65c40bc29692",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_d21911b3bd5e37bd",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_1c709eaa4118ad63",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_2d2413d7131bd3ec",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_54c2ed57f237dbe8",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_45284062bca6ecbc",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_787c3c542e573ee9",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_ec41b46053df37b9",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_20bc2823d69f7c75",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_4edf63ef285422b7",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_941d2e20bab65afb",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_550e61fa717e1135",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_89ebdfd2845c0b87",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_6f0a2cff0c383f03",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_c2ee2a13b8287d5e",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_f02685edb2c6506a",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_58e7399e9bed3480",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_31f9cec5b0967970",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_021c9f41b97202c6",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_4afc5263de5b6fe0",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_cb5f5a82c48bb3cd",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_ba04f5f517638c2c",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_26b815aee7354233",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_495e2dac31ef10ad",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_66d24998d12ea4da",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_b430e6ddd5ee89a4",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_fed7d1509bda3c15",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_caa46748afb87edd",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_7ab02d2fe1d7d5be",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_46f34360cb6aacef",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_f03528d25b69842c",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_a96d34f21e3545e8",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_0602f7a93a5c5f61",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_f1e544198db201aa",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_24b7b46243227f7a",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_4bb147ce605ac37c",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_8d10ddfb6c6a3968",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_df703d621cdf8e71",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_c90134e12d75eae4",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_577d017cce0357ec",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_4acc651607a54793",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_e8240c9e63e3f9d6",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_e78621006876025f",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_00cfc75d5a0e386f",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_aec4e4846151c6ed",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_1395a56aff0cd257",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_5aadedb7fbd45662",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_e8924cd03e17aea8",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_46b7badd759c4669",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_74a5855fed9794a6",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_697e1d0df3207972",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_ddc7c413438ae6e0",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_6ac9e7baa214b9d5",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_f8b7ed76c2877156",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_b03e6a6b79c30a90",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_5f275f74406ba950",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_11a3be323e382f5b",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_d37bf185bd2ff266",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_b328cba4478f7901",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_66b84f46f581139e",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_e67a1002dbdc365c",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_0d500d2621634622",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_b722ec3b1e88008a",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_c327e8a1244b796e",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_6a31b2b3fc505960",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_f7f777aa58ebfe76",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_b3d00dcdaffaed37",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_92afd3102d67810f",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_8b24eff9f2418d9d",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_98f653dd67ec1bc5",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_39ab67e0b4ba2231",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_0c6cd2012a0066e9",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_bbf4629b9237ae4a",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_c864dff901aaf0fb",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_35e3a8bd445391f0",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_84045ae3c6212f9a",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_de33e11b55e21667",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_375edf6beb77c260",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_9e3fd240669cfad9",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_dbdc828693d5c206",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_3e384841569d239d",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_fa18e407e1b0bb37",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_c0949b057c51a340",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_17963123e844d967",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_f73c7720402b98ef",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_9885d82a3b532f5d",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_17039dd91056d7f9",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_434cbbe8cea5f917",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_7e4929a81d8467f5",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_05e46714fa49f3da",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_b6c15ed00e998f2a",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_f5897470ff3290be",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_0bf6e0211ae1abb0",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_0fdab3d64a5d5a4c",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_4ec8a0903ce6b2dd",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_191acd57cf3b2ac3",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_d48ca5bd3d351ff3",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_1b29a11868abaf63",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_52c83da2c7428919",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_a949a775b0233ca7",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_a38e8d7e8232fa40",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_00d7118e50d3e3e0",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_6ef514b351450748",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_80a5c08851a17c69",
+    "source_dataset": "selfinstruct",
+    "reason": "privacy_pattern_phone_like"
+  },
+  {
+    "prompt_id": "prompt_1ee148400188e420",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_f6e2a3ffe14e49f6",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_8bc5f531c105c7b1",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_d912228e2bdd3983",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_41394f89078a0d4e",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_eaac3522969210d7",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_b17aaab1f5b69eea",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_d3ca776e78c6eb62",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_dec9a1fa84273cec",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_60b4ecf6a998ef35",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_83eb6d72547244db",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_b55e409e5358095f",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_9bb2152104e15185",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_c24aaeb1418e2e52",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_5b18de22ca5e62db",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_1e687e01774048d8",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_0470370e815f1fb1",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_97be6e8377d5f30c",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_acde385ac1bfb40f",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_6b7ab25f51a6be73",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_a16b518439b15833",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_5014887d7c36b316",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_f8355e8cfc6f9122",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_2897fb3da4d9c4a2",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_b815b05f1174c258",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_621ffd5dbd99da9e",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_67ae789ae30a53cd",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_03f1f1a558b9f95f",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_4aa9405da416cb90",
+    "source_dataset": "oasst",
+    "reason": "excluded_crowdsourced_source"
+  },
+  {
+    "prompt_id": "prompt_b4a021805a9759e0",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_8f5f9e08f5402c09",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_c9b36750c0d47994",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_0e0484d096de28f2",
+    "source_dataset": "selfinstruct",
+    "reason": "privacy_pattern_phone_like"
+  },
+  {
+    "prompt_id": "prompt_25729a395f9c856a",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  },
+  {
+    "prompt_id": "prompt_6868d81397ccaf45",
+    "source_dataset": "koala",
+    "reason": "excluded_koala_training_request"
+  }
+]

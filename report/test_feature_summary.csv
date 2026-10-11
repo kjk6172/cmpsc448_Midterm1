@@ -1,0 +1,4 @@
+family,mean_words,median_words,full_ttr,prefix64_ttr,list_usage,code_fence_usage
+Claude,158.7,173,0.632,0.752,62.1%,4.6%
+GPT,164.7,164,0.650,0.768,46.0%,8.0%
+Gemini,193.0,204,0.601,0.755,60.9%,10.3%

@@ -1,0 +1,149 @@
+{
+  "run_id": "domain_holdout_writing_tfidf_input_output_raw_seed42",
+  "experiment": "domain_holdout",
+  "model": "tfidf",
+  "mode": "input_output",
+  "seed": 42,
+  "variant": "raw",
+  "heldout_domain": "writing",
+  "heldout_source": null,
+  "dataset_sha256": "10fcf73725785a116f126700bde3cafd6b234b46d18a6a62c3d9fa7b8470a001",
+  "split_sha256": "2dd236d59939963f619963c8f62ca1751a1fbb0b11c9e60fb63f35c9b7b32d23",
+  "implementation_sha256": "53855696d04510c1117e7d79a01d1fe4bcfb0a94c28f0be0ddebc3725fe4cbaf",
+  "labels": [
+    "Claude",
+    "GPT",
+    "Gemini"
+  ],
+  "accuracy": 0.6911764705882353,
+  "macro_f1": 0.6828237337098528,
+  "per_class": {
+    "Claude": {
+      "precision": 0.7023809523809523,
+      "recall": 0.8676470588235294,
+      "f1": 0.7763157894736842,
+      "support": 68
+    },
+    "GPT": {
+      "precision": 0.6575342465753424,
+      "recall": 0.7058823529411765,
+      "f1": 0.6808510638297872,
+      "support": 68
+    },
+    "Gemini": {
+      "precision": 0.723404255319149,
+      "recall": 0.5,
+      "f1": 0.591304347826087,
+      "support": 68
+    }
+  },
+  "confusion_matrix": [
+    [
+      59,
+      8,
+      1
+    ],
+    [
+      8,
+      48,
+      12
+    ],
+    [
+      17,
+      17,
+      34
+    ]
+  ],
+  "confusion_matrix_order": [
+    "Claude",
+    "GPT",
+    "Gemini"
+  ],
+  "n_test_rows": 204,
+  "bootstrap_accuracy_ci95": [
+    0.6274509803921569,
+    0.7501225490196077
+  ],
+  "train_rows": 921,
+  "validation_rows": 219,
+  "best_validation_macro_f1": 0.7784750337381916,
+  "selected_C": 10.0,
+  "expected_chance_accuracy": 0.3333333333333333,
+  "seconds": 1.0937975998967886,
+  "test_prompt_ids": [
+    "prompt_0017a6d711389b4a",
+    "prompt_0da45d987d3fdf1d",
+    "prompt_0dd4e54af92f72a6",
+    "prompt_1607a2cfb536a17d",
+    "prompt_18afa4de1959cdda",
+    "prompt_1d4ab000692e72e7",
+    "prompt_1e4830f3cb1c139f",
+    "prompt_201fabd8189863f3",
+    "prompt_2a2b2b8859a5a925",
+    "prompt_2b195ae36c024d41",
+    "prompt_2f7ae2de2648f715",
+    "prompt_355994c055d0b3a8",
+    "prompt_3682433d25703ebb",
+    "prompt_37f078ed62421ea6",
+    "prompt_3a96d4690baf8bad",
+    "prompt_3d103ca3cab9e8f7",
+    "prompt_3e82dd0d93f48047",
+    "prompt_43744f4a0ef9c7ce",
+    "prompt_447b095c623028ce",
+    "prompt_44af0d58569c3e20",
+    "prompt_4a9785e8bb853614",
+    "prompt_51619d8d3fbeb98a",
+    "prompt_5224c006fc0f6f6f",
+    "prompt_53d77e8aac650dbc",
+    "prompt_552d1f50c820f0b5",
+    "prompt_5813d1b2108113c3",
+    "prompt_5bd1195ec9ecb352",
+    "prompt_5ea0dc54ef93b74b",
+    "prompt_5f44777a8c24890b",
+    "prompt_6c1b40278473b9e6",
+    "prompt_6d3a6330dbfd69f4",
+    "prompt_713f3f41b2c95902",
+    "prompt_77fa6a93899b94d7",
+    "prompt_7fa24f47b8efd73a",
+    "prompt_828ace3fc3f09232",
+    "prompt_841c9471fa372970",
+    "prompt_861708cb02e90ca2",
+    "prompt_86f4254204bbbb8e",
+    "prompt_89cf72eb199b98b4",
+    "prompt_8b160ee0ad4302a7",
+    "prompt_9b805527cfc371db",
+    "prompt_9fa3072e09dfd707",
+    "prompt_a40f90a93821e29f",
+    "prompt_aa7909485950f3bc",
+    "prompt_ab723f46f2cde082",
+    "prompt_abdae8f28a981fc5",
+    "prompt_ac228d7788a6db63",
+    "prompt_ac4dae106c348a4e",
+    "prompt_b02d4ed26cb948ec",
+    "prompt_b26f2f05df775262",
+    "prompt_b459f918062efba0",
+    "prompt_b614d340b6f7f6ba",
+    "prompt_bf8b84e8b7e274e2",
+    "prompt_c1a332df60eb01a4",
+    "prompt_c213ca2fa902aeb2",
+    "prompt_c703699ac6bc493d",
+    "prompt_d61b089d6bd1faa8",
+    "prompt_d653c22253b78c21",
+    "prompt_dd328ca4381a1aa2",
+    "prompt_dda0dabd579c6be0",
+    "prompt_de4ba061da3a108d",
+    "prompt_eb44fa577d6db13b",
+    "prompt_ecb72fb9669e6bf2",
+    "prompt_ed83dc88bc8a3f0a",
+    "prompt_f167820385021061",
+    "prompt_f58e267b7d458599",
+    "prompt_f595a2a74fc199cd",
+    "prompt_f72a9dbe2e462957"
+  ],
+  "split_group_counts": {
+    "train": 293,
+    "validation": 68,
+    "test": 68
+  },
+  "excluded_rows": 0
+}

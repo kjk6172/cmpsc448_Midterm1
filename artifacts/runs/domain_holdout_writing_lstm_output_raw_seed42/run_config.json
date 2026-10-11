@@ -1,0 +1,57 @@
+{
+  "run_id": "domain_holdout_writing_lstm_output_raw_seed42",
+  "model": "lstm",
+  "mode": "output",
+  "seed": 42,
+  "experiment": "domain_holdout",
+  "variant": "raw",
+  "heldout_domain": "writing",
+  "heldout_source": null,
+  "dataset_sha256": "10fcf73725785a116f126700bde3cafd6b234b46d18a6a62c3d9fa7b8470a001",
+  "split_sha256": "2dd236d59939963f619963c8f62ca1751a1fbb0b11c9e60fb63f35c9b7b32d23",
+  "implementation_sha256": "53855696d04510c1117e7d79a01d1fe4bcfb0a94c28f0be0ddebc3725fe4cbaf",
+  "encoding_revision": "equal-output-budget-v1",
+  "config": {
+    "embedding_dim": 64,
+    "hidden_dim": 48,
+    "dropout": 0.3,
+    "learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "max_length": 256,
+    "input_budget": 64,
+    "max_vocab": 20000,
+    "min_frequency": 2,
+    "epochs": 20,
+    "patience": 4,
+    "clip_gradient_norm": 1.0,
+    "threads": 2
+  },
+  "labels": [
+    "Claude",
+    "GPT",
+    "Gemini"
+  ],
+  "effective_max_length": 256,
+  "output_token_budget": 256,
+  "input_token_budget": 64,
+  "vocab_size": 8858,
+  "model_kwargs": {
+    "vocab_size": 8858,
+    "num_classes": 3,
+    "embedding_dim": 64,
+    "hidden_dim": 48,
+    "dropout": 0.3
+  },
+  "parameter_count": 610979,
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.6.0+cpu",
+    "numpy": "2.2.6",
+    "sklearn": "1.6.1",
+    "device": "cpu",
+    "cpu_count": 16
+  },
+  "selection_rule": "highest validation macro-F1, then lowest validation loss; no test-based selection"
+}

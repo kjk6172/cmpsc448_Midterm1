@@ -1,0 +1,123 @@
+{
+  "checked_date": "2026-10-11",
+  "checks": [
+    {
+      "key": "pytorch_lstm",
+      "url": "https://docs.pytorch.org/docs/2.6/generated/torch.nn.LSTM.html",
+      "status": 200,
+      "sha256": "15a866a0062086d7858344cae13ee153255fe75a255ea88e5ef5d70cf19939c2",
+      "expected_api_found": true
+    },
+    {
+      "key": "pytorch_packed",
+      "url": "https://docs.pytorch.org/docs/2.6/generated/torch.nn.utils.rnn.pack_padded_sequence.html",
+      "status": 200,
+      "sha256": "daa33ef053eed458adc5abe0799d5504a5d60ee0a84484f68d10f9556c016b44",
+      "expected_api_found": true
+    },
+    {
+      "key": "lstm_crossref",
+      "url": "https://api.crossref.org/works/10.1162/neco.1997.9.8.1735",
+      "status": 200,
+      "sha256": "278025d602fcc02fe9a198b3fc27f4edf940fc341fa82fa53975f38ce73c58b8",
+      "metadata": {
+        "title": [
+          "Long Short-Term Memory"
+        ],
+        "author": [
+          {
+            "given": "Sepp",
+            "family": "Hochreiter",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Fakult\u00e4t f\u00fcr Informatik, Technische Universit\u00e4t M\u00fcnchen, 80290 M\u00fcnchen, Germany"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "J\u00fcrgen",
+            "family": "Schmidhuber",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "IDSIA, Corso Elvezia 36, 6900 Lugano, Switzerland"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1997,
+              11,
+              1
+            ]
+          ]
+        },
+        "volume": "9",
+        "issue": "8",
+        "page": "1735-1780",
+        "DOI": "10.1162/neco.1997.9.8.1735",
+        "publisher": "MIT Press"
+      }
+    },
+    {
+      "key": "GPT_outputs",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/results/gpt4_0613/model_outputs.json",
+      "status": 200,
+      "sha256": "a7f220e428d66d20fa187e895ea2352ad8142fcdc38815365a54e4687893fc8f",
+      "matches_manifest": true,
+      "rows": 805
+    },
+    {
+      "key": "Claude_outputs",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/results/claude-2/model_outputs.json",
+      "status": 200,
+      "sha256": "aaab6625ea5825776d7aa0510a1e60d8c8ae0c11f1059648dbd75bf0289f6b3f",
+      "matches_manifest": true,
+      "rows": 805
+    },
+    {
+      "key": "Gemini_outputs",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/results/gemini-pro/model_outputs.json",
+      "status": 200,
+      "sha256": "10516b7b8118b310828361983d5a166889cb0cb2e57dd7ac08b9a25f950637f7",
+      "matches_manifest": true,
+      "rows": 805
+    },
+    {
+      "key": "GPT_config",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/src/alpaca_eval/models_configs/gpt4_0613/configs.yaml",
+      "status": 200,
+      "sha256": "1d2f3bff76e9d11f9c46f9057ca31f29cc4e28822b5bea93d9d340f89e1110fb",
+      "configuration": "gpt4_0613:\n  prompt_template: \"gpt4/chatml_prompt.txt\"\n  fn_completions: \"openai_completions\"\n  completions_kwargs:\n    model_name: \"gpt-4-0613\"\n    max_tokens: 4096\n  pretty_name: \"GPT-4 (06/13)\""
+    },
+    {
+      "key": "Claude_config",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/src/alpaca_eval/models_configs/claude-2/configs.yaml",
+      "status": 200,
+      "sha256": "0efa8a06400e5d625363c0aff0e4e678c4d5753ccfba06752eb40a287b837553",
+      "configuration": "claude-2:\n  prompt_template: \"claude/prompt.txt\"\n  fn_completions: \"anthropic_completions\"\n  completions_kwargs:\n    model_name: \"claude-2\"\n    max_tokens_to_sample: 4096\n  pretty_name: \"Claude 2\"\n"
+    },
+    {
+      "key": "Gemini_config",
+      "url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/src/alpaca_eval/models_configs/gemini-pro/configs.yaml",
+      "status": 200,
+      "sha256": "26d2ff1a9c1389da4f712e7f9f97d530106ecd441b2d262754e401e38a5b8e27",
+      "configuration": "gemini-pro:\n  prompt_template: \"gemini-pro/prompt.txt\"\n  fn_completions: \"google_completions\"\n  completions_kwargs:\n    model_name: \"gemini-pro\"\n    max_output_tokens: 2048\n    candidate_count: 1\n  pretty_name: \"Gemini Pro\""
+    }
+  ]
+}

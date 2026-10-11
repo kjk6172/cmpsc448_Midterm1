@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "dataset_sha256": "10fcf73725785a116f126700bde3cafd6b234b46d18a6a62c3d9fa7b8470a001",
+  "matched_prompts": 448,
+  "near_duplicate_groups": 429,
+  "responses": 1344,
+  "runs_checked": 38,
+  "required_neural_runs": 18,
+  "checkpoints_replayed": 14,
+  "checkpoint_predictions_replayed": 4470,
+  "split_prompts": {
+    "train": 278,
+    "validation": 83,
+    "test": 87
+  },
+  "split_groups": {
+    "train": 278,
+    "validation": 65,
+    "test": 86
+  },
+  "pdf_pages": 16,
+  "pdf_images_checked": 6,
+  "checks": [
+    "CSV and JSONL checksums and equivalence",
+    "Koala and OASST absent from all splits",
+    "prompt and template isolation",
+    "required experiment coverage",
+    "recomputed metrics and confusion matrices",
+    "prediction probabilities",
+    "input-only chance control",
+    "inference artifacts",
+    "extra-credit analyses",
+    "author names and research questions in PDF",
+    "no unfinished report placeholders",
+    "PDF figures inside page bounds"
+  ]
+}

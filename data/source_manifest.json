@@ -1,0 +1,183 @@
+{
+  "dataset_title": "Matched AlpacaEval LLM-Family Attribution Subset",
+  "created_for": "CMPSC 448 Midterm Project 1",
+  "source": {
+    "repository": "https://github.com/tatsu-lab/alpaca_eval",
+    "repository_revision": "cd543a149df89434d8a54582c0151c0b945c3d20",
+    "dataset_card": "https://huggingface.co/datasets/tatsu-lab/alpaca_eval",
+    "dataset_card_revision": "2edc6fad8be6b14ea7230aabfd08188da6b8b814",
+    "source_original_matched_prompts": 805,
+    "accessed_date": "2026-10-11",
+    "data_license": "CC-BY-NC-4.0",
+    "repository_code_license": "Apache-2.0",
+    "license_note": "The repository explicitly distinguishes Apache-2.0 code and CC-BY-NC-4.0 data. This processed dataset is a noncommercial academic derivative of the data; it is not relicensed as Apache-2.0.",
+    "citation": "Li, X., Zhang, T., Dubois, Y., Taori, R., Gulrajani, I., Guestrin, C., Liang, P., and Hashimoto, T. B. (2023). AlpacaEval: An Automatic Evaluator of Instruction-following Models. GitHub repository.",
+    "constituent_sources": {
+      "selfinstruct": "https://github.com/yizhongw/self-instruct",
+      "vicuna": "https://lmsys.org/blog/2023-03-30-vicuna/",
+      "koala_excluded": "https://github.com/arnav-gudibande/koala-test-set",
+      "helpful_base": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
+      "oasst_excluded": "https://huggingface.co/datasets/OpenAssistant/oasst1"
+    }
+  },
+  "models": [
+    {
+      "family": "GPT",
+      "model_id": "gpt-4-0613",
+      "provider": "OpenAI",
+      "max_output_tokens": 4096,
+      "generator_key": "gpt4_0613",
+      "source_url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/results/gpt4_0613/model_outputs.json",
+      "source_sha256": "a7f220e428d66d20fa187e895ea2352ad8142fcdc38815365a54e4687893fc8f",
+      "configuration_url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/src/alpaca_eval/models_configs/gpt4_0613/configs.yaml"
+    },
+    {
+      "family": "Claude",
+      "model_id": "claude-2",
+      "provider": "Anthropic",
+      "max_output_tokens": 4096,
+      "generator_key": "claude-2",
+      "source_url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/results/claude-2/model_outputs.json",
+      "source_sha256": "aaab6625ea5825776d7aa0510a1e60d8c8ae0c11f1059648dbd75bf0289f6b3f",
+      "configuration_url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/src/alpaca_eval/models_configs/claude-2/configs.yaml"
+    },
+    {
+      "family": "Gemini",
+      "model_id": "gemini-pro",
+      "provider": "Google",
+      "max_output_tokens": 2048,
+      "generator_key": "gemini-pro",
+      "source_url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/results/gemini-pro/model_outputs.json",
+      "source_sha256": "10516b7b8118b310828361983d5a166889cb0cb2e57dd7ac08b9a25f950637f7",
+      "configuration_url": "https://raw.githubusercontent.com/tatsu-lab/alpaca_eval/cd543a149df89434d8a54582c0151c0b945c3d20/src/alpaca_eval/models_configs/gemini-pro/configs.yaml"
+    }
+  ],
+  "curation": {
+    "selection": "All exactly matched prompt groups surviving fixed filters; no response quality or classification result used in selection.",
+    "source_exclusion": "All OASST prompts excluded as a conservative curation choice for user-contributed conversations. All Koala prompts excluded from every split to honor the source README request against training use.",
+    "excluded_sources": [
+      "koala",
+      "oasst"
+    ],
+    "koala_request_url": "https://github.com/arnav-gudibande/koala-test-set",
+    "privacy_filter": [
+      "email",
+      "phone_like",
+      "credential_assignment",
+      "street_address"
+    ],
+    "privacy_note": "Conservative pattern screening applied to prompts and all three outputs; matching one text excludes all three answers. This is screening, not an assertion that the removed benchmark examples contain real identities.",
+    "empty_filter": "Exclude a whole matched prompt when any provider answer is blank.",
+    "identity_scrub": "Case-insensitive model/provider identity substrings replaced with the shared literal [MODEL] in both prompt and response; raw answers preserved only in ignored download cache. Original text hashes retained for traceability.",
+    "domain_method": "Fixed ordered keyword regex rules applied to the original prompt only: programming, mathematics, science, writing, else general. Heuristic task tags, not expert annotations.",
+    "domain_rules": [
+      {
+        "domain": "programming",
+        "pattern": "\\b(?:python|javascript|java|c\\+\\+|sql|html|css|code|coding|programming|programmer|function|algorithm|regex|linux|git|pandas|numpy|debug|software|database|json|bash|api|spreadsheet|excel)\\b"
+      },
+      {
+        "domain": "mathematics",
+        "pattern": "\\b(?:math|mathematics|equation|algebra|calculus|integral|derivative|probability|geometry|arithmetic|multiplication|multiply|calculate|calculation|percentage|factorial|prime number|quadratic)\\b"
+      },
+      {
+        "domain": "science",
+        "pattern": "\\b(?:physics|chemistry|biology|quantum|molecule|atom|photosynthesis|evolution|gravity|DNA|RNA|cell|climate|planet|solar|astronomy|neuron|scientific|experiment|ecosystem|bacteria|virus)\\b"
+      },
+      {
+        "domain": "writing",
+        "pattern": "\\b(?:poem|poetry|story|fiction|essay|rewrite|rephrase|summarize|summary|translate|translation|email|letter|write|writing|grammar|proofread|song|novel|screenplay|dialogue|headline|slogan)\\b"
+      }
+    ],
+    "split_key": "split_group_id (all responses to the same and near-duplicate prompts travel together)",
+    "group_rule": "Word tokens >=8, length ratio >=0.60, character SequenceMatcher >=0.85 OR word-trigram Jaccard >=0.80; connected components.",
+    "source_dataset_meaning": "Original benchmark collection identity; a holdout by this field measures collection/source generalization rather than a clean topic domain shift."
+  },
+  "limitations": [
+    "One snapshot/model per provider; results do not establish invariance across versions or modern models.",
+    "Provider-specific prompt templates, generation dates and decoding behavior can affect style.",
+    "Published max output tokens differ: GPT/Claude 4096 versus Gemini 2048.",
+    "All input content is identical across classes within each prompt; prompt-only classification therefore has a theoretical 1/3 accuracy ceiling for deterministic classifiers on the balanced matched test set.",
+    "Heuristic topic tags can misclassify prompts; original benchmark-source tags are retained separately.",
+    "Noncommercial academic use and redistribution must preserve attribution and the CC-BY-NC-4.0 notice."
+  ],
+  "audit": {
+    "original_matched_prompts": 805,
+    "original_source_prompt_counts": {
+      "helpful_base": 129,
+      "koala": 156,
+      "oasst": 188,
+      "selfinstruct": 252,
+      "vicuna": 80
+    },
+    "retained_matched_prompts": 448,
+    "retained_responses": 1344,
+    "per_family_response_counts": {
+      "Claude": 448,
+      "GPT": 448,
+      "Gemini": 448
+    },
+    "source_prompt_counts": {
+      "helpful_base": 127,
+      "selfinstruct": 242,
+      "vicuna": 79
+    },
+    "domain_prompt_counts": {
+      "general": 323,
+      "mathematics": 4,
+      "programming": 45,
+      "science": 8,
+      "writing": 68
+    },
+    "dropped_prompt_counts": {
+      "empty_output": 1,
+      "excluded_crowdsourced_source": 188,
+      "excluded_koala_training_request": 156,
+      "privacy_pattern_email": 2,
+      "privacy_pattern_phone_like": 9,
+      "privacy_pattern_street_address": 1
+    },
+    "excluded_sources": [
+      "koala",
+      "oasst"
+    ],
+    "identity_scrubbed_input_prompts": 0,
+    "identity_scrubbed_output_counts": {
+      "Claude": 4,
+      "GPT": 1,
+      "Gemini": 0
+    },
+    "identity_replacements": {
+      "Claude": 4,
+      "GPT": 1,
+      "Gemini": 0
+    },
+    "exact_canonical_duplicate_prompts": 0,
+    "rows_per_prompt": 3,
+    "identical_input_across_families": true,
+    "exact_repeated_answer_audit": {
+      "GPT": {
+        "repeated_answer_rows_beyond_first": 0,
+        "longest_repeated_answer_characters": 0
+      },
+      "Claude": {
+        "repeated_answer_rows_beyond_first": 0,
+        "longest_repeated_answer_characters": 0
+      },
+      "Gemini": {
+        "repeated_answer_rows_beyond_first": 1,
+        "longest_repeated_answer_characters": 9
+      }
+    },
+    "grouping": {
+      "split_group_count": 429,
+      "near_duplicate_pairs": 113,
+      "multi_prompt_groups": 3,
+      "largest_group_prompts": 15,
+      "rule": "Word tokens >=8, length ratio >=0.60, character SequenceMatcher >=0.85 OR word-trigram Jaccard >=0.80; connected components."
+    },
+    "processed_file_sha256": {
+      "dataset.csv": "10fcf73725785a116f126700bde3cafd6b234b46d18a6a62c3d9fa7b8470a001",
+      "dataset.jsonl": "e79ebe61a184a4648527fa9f2f0ba65a0449afe6026a2afc3f8b550e01236a99"
+    }
+  }
+}

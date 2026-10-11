@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the original AlpacaEval dataset and model-output sources when reusing the data."
+title: "Who Wrote It? Identifying LLMs from Their Responses"
+type: software
+authors:
+  - family-names: Kim
+    given-names: Kiseong
+  - family-names: Park
+    given-names: Jisung
+date-released: 2026-10-11
+version: 1.0.0
+license: MIT

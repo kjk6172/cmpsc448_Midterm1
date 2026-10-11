@@ -1,0 +1,8 @@
+{
+  "command": ".venv/Scripts/python.exe -m pytest -q",
+  "tests_run": 12,
+  "outcome": "passed",
+  "seconds_reported_by_pytest": 2.67,
+  "implementation_sha256": "53855696d04510c1117e7d79a01d1fe4bcfb0a94c28f0be0ddebc3725fe4cbaf",
+  "verification_notes": "Final unit tests passed after source exclusion and report/verification changes. The artifact verifier separately replays all 4470 test predictions for 14 neural checkpoints and validates 38 run metrics."
+}
